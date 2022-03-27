@@ -1,0 +1,126 @@
+.full{
+    width: 100vw;
+}
+
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.gore{
+    width: 100%;
+    height: 2rem;
+    justify-content: right;
+    place-items: center;
+    gap:1.5rem;
+    background-color: rgb(54, 54, 54);
+}
+
+.gore a{
+    color: aliceblue;
+    margin-right: 0.5rem;
+}
+.Link{
+    display: flex;
+    height: 100%;
+    place-items: center;
+    gap: 5px;
+    
+}
+
+.srednji {
+    width: 100%;
+    height: 7.5rem;
+    justify-content: space-around;
+    place-items: center;
+
+}
+.srednji a{
+    color: black;
+}
+.ostalo{
+    gap:5rem;
+}
+.kontakt{
+    place-items: center;
+}
+.ikona{
+    width: 60px;
+    height: 60px;
+}
+
+.lokacija{
+    gap:10px;
+    place-items: center;
+
+}
+.radnovreme{
+    place-items: center;
+}
+.dole{
+    height: 3rem;
+    place-items: center;
+    width: 100%;
+    background-color: cornflowerblue;
+    justify-content: space-around;
+}
+.nav{
+    gap:2rem;
+}
+.nav a{
+    color: aliceblue;
+}
+
+.strelica{
+    width: 25px;
+    height: 25px;
+    margin-left: -2px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.onamahover{
+    width: 1000px;
+    height: 400px;
+    background-color: aqua;
+    z-index: 10;
+    left: 15%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.lekari{
+    width: 1000px;
+    height: 400px;
+    background-color: red;
+    z-index: 10;
+    left: 15%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.zapacijenta{
+    width: 1000px;
+    height: 400px;
+    background-color: orange;
+    z-index: 10;
+    left: 15%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.usluge{
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(215, 255, 36);
+    z-index: 10;
+    left: 15%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.prvo{
+    display: flex;
+    flex-direction: column;
+    
+}

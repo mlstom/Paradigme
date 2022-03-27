@@ -7,4 +7,10 @@ import './index.css';
 
 ReactDOM.render(
   <Router>
-    <A
+    <App />
+  </Router>,
+  document.getElementById('root')
+);
+
+
+

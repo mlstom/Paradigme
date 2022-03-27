@@ -1,0 +1,57 @@
+.Page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    
+}
+.mySwipper{
+    width: 1000px;
+    height: 400px;
+    background-size: cover;
+}
+.Holder{
+    margin-top: 2rem;
+    width: 1000px;
+    height: 300px;
+    
+    
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.Uvod{
+    margin-top: 3rem;
+}
+.grid{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+    
+}
+.flex{
+    display:flex;
+}
+.naslov, .deskripcija{
+    text-align: center;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(5, 0.75fr);
+    gap: 30px;
+    grid-template-rows: minmax(100px,auto);
+      
+}
+.uslugasl{
+    height: 200px;
+}
+.naslovusluge{
+    text-align: center;
+}
+.sekcija{
+    padding-top:2rem ;
+}
